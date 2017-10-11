@@ -1,0 +1,21 @@
+{
+  "name": "SPARKFUN_MPU9250_9DOF_IMU",
+  "version": "1.0.0",
+  "keywords": "mpu9250, imu, gyro, i2c, 9dof",
+  "description": "Driver for InvenSense's MPU-9250 9-DOF IMU (3-axis gyroscope, 3-axis accelerometer & 3-axis magnetometer)",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/sparkfun/SparkFun_MPU-9250_Breakout_Arduino_Library.git"
+  },
+  "authors":
+  [
+    {
+        "name": "SparkFun Electronics",
+        "email": "TechSupport@SparkFun.com",
+        "url": "https://github.com/sparkfun/MPU-9250_Breakout"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
