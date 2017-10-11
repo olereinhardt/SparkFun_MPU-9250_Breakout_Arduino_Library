@@ -605,8 +605,8 @@ void MPU9250::magCalMPU9250(float * bias_dest, float * scale_dest)
   uint16_t ii = 0, sample_count = 0;
   int32_t mag_bias[3]  = {0, 0, 0},
           mag_scale[3] = {0, 0, 0};
-  int16_t mag_max[3]  = {0x8000, 0x8000, 0x8000},
-          mag_min[3]  = {0x7FFF, 0x7FFF, 0x7FFF},
+  int16_t mag_max[3]  = {(int16_t)0x8000, (int16_t)0x8000, (int16_t)0x8000},
+          mag_min[3]  = {(int16_t)0x7FFF, (int16_t)0x7FFF, (int16_t)0x7FFF},
           mag_temp[3] = {0, 0, 0};
 
   // Make sure resolution has been calculated
